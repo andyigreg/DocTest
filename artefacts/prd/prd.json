@@ -1,1 +1,162 @@
-{}
+{
+  "prd": {
+    "title": "Freelancer Task Management App",
+    "version": "1.0",
+    "status": "Draft",
+    "overview": "A task management application purpose-built for freelancers who juggle multiple clients, projects, and deadlines simultaneously. Unlike generic task tools, this app organises work around clients and projects, surfaces revenue-relevant context alongside tasks, and adapts to the non-linear, self-directed nature of freelance work.",
+
+    "goals": [
+      {
+        "id": "G1",
+        "goal": "Reduce context-switching overhead",
+        "description": "Give freelancers a single place to track tasks across all clients and projects, eliminating the need to maintain separate lists per client or tool."
+      },
+      {
+        "id": "G2",
+        "goal": "Make deadlines and priorities visible at a glance",
+        "description": "Surface upcoming deadlines, overdue items, and priority conflicts without requiring manual triage each day."
+      },
+      {
+        "id": "G3",
+        "goal": "Connect work to revenue",
+        "description": "Link tasks to billable projects so freelancers can see which work is paid, track hours against budgets, and flag scope creep early."
+      },
+      {
+        "id": "G4",
+        "goal": "Support flexible, async work patterns",
+        "description": "Support non-standard schedules — irregular hours, time zones, and day-to-day reprioritisation — without imposing rigid workflows."
+      },
+      {
+        "id": "G5",
+        "goal": "Minimise administrative overhead",
+        "description": "Automate recurring task creation, reminders, and status updates so freelancers spend time on billable work rather than managing their task list."
+      }
+    ],
+
+    "user_stories": [
+      {
+        "id": "US1",
+        "role": "Freelancer",
+        "action": "create a task and assign it to a client and project",
+        "benefit": "so that all my work is organised by who it is for and not just by topic"
+      },
+      {
+        "id": "US2",
+        "role": "Freelancer",
+        "action": "set a due date and priority level on each task",
+        "benefit": "so that I know what to work on first when I start my day"
+      },
+      {
+        "id": "US3",
+        "role": "Freelancer",
+        "action": "see a unified inbox of all tasks across all clients",
+        "benefit": "so that nothing falls through the cracks when I am working for multiple clients simultaneously"
+      },
+      {
+        "id": "US4",
+        "role": "Freelancer",
+        "action": "log time against a task and see it measured against a project budget",
+        "benefit": "so that I can identify when a project is approaching its hour limit and have an informed conversation with the client"
+      },
+      {
+        "id": "US5",
+        "role": "Freelancer",
+        "action": "create recurring tasks on a schedule I define",
+        "benefit": "so that regular obligations such as weekly reports or monthly invoices are created automatically without manual entry"
+      },
+      {
+        "id": "US6",
+        "role": "Freelancer",
+        "action": "tag tasks as billable or non-billable",
+        "benefit": "so that I can accurately report hours to clients and exclude internal admin from invoices"
+      },
+      {
+        "id": "US7",
+        "role": "Freelancer",
+        "action": "view a timeline or calendar view of tasks across all projects",
+        "benefit": "so that I can spot scheduling conflicts and avoid over-committing across clients"
+      },
+      {
+        "id": "US8",
+        "role": "Freelancer",
+        "action": "archive a project and all its tasks when work is complete",
+        "benefit": "so that my active workspace stays uncluttered while historical work remains searchable"
+      },
+      {
+        "id": "US9",
+        "role": "Freelancer",
+        "action": "receive a daily digest of tasks due today and overdue items",
+        "benefit": "so that I start each working day with a clear, prioritised list without having to build it manually"
+      },
+      {
+        "id": "US10",
+        "role": "Freelancer",
+        "action": "share a read-only project task board with a client",
+        "benefit": "so that clients can see progress without needing to email me for status updates"
+      },
+      {
+        "id": "US11",
+        "role": "Freelancer",
+        "action": "add notes and file attachments to a task",
+        "benefit": "so that all context for a piece of work is in one place and I do not lose track of briefs or reference materials"
+      },
+      {
+        "id": "US12",
+        "role": "Freelancer",
+        "action": "filter and sort tasks by client, project, due date, or priority",
+        "benefit": "so that I can quickly focus on a single client engagement when needed"
+      }
+    ],
+
+    "success_metrics": [
+      {
+        "id": "SM1",
+        "category": "Activation",
+        "metric": "Task creation within first session",
+        "target": "70% of new users create at least one task and assign it to a project within their first session"
+      },
+      {
+        "id": "SM2",
+        "category": "Engagement",
+        "metric": "Daily active use",
+        "target": "60% of active users open the app at least 4 days per week"
+      },
+      {
+        "id": "SM3",
+        "category": "Retention",
+        "metric": "30-day retention",
+        "target": "50% of users who complete onboarding return and create a task in week 4"
+      },
+      {
+        "id": "SM4",
+        "category": "Core feature adoption",
+        "metric": "Time logging usage",
+        "target": "40% of active users log time against at least one task per week within 60 days of signup"
+      },
+      {
+        "id": "SM5",
+        "category": "Core feature adoption",
+        "metric": "Multi-client usage",
+        "target": "55% of active users have tasks across 2 or more active clients within 30 days"
+      },
+      {
+        "id": "SM6",
+        "category": "Satisfaction",
+        "metric": "Net Promoter Score",
+        "target": "NPS of 40 or above at the 90-day cohort mark"
+      },
+      {
+        "id": "SM7",
+        "category": "Reliability",
+        "metric": "Task completion rate",
+        "target": "Users mark at least 65% of created tasks as complete (vs abandoned), indicating tasks reflect real work rather than aspirational lists"
+      },
+      {
+        "id": "SM8",
+        "category": "Efficiency",
+        "metric": "Recurring task adoption",
+        "target": "30% of active users set up at least one recurring task within 45 days, reducing manual admin"
+      }
+    ]
+  }
+}
